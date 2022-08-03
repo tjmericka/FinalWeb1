@@ -12,18 +12,8 @@ img {
 body {
 	font-family: 'Arial', sans-serif;
 
-}	
+}
 
-
-.main-area {
-	display: grid;
-	grid-template-columns: 400px 400px 400px;
-	grid-template-rows:  auto;
-	}
-	
-	body {
-	font-family: 'Arial', sans-serif;
-	}
 	
 h1 {
 		text-align: center;
@@ -74,17 +64,25 @@ grid-row: 1 / 2;
 	width: 150px;
 	height: 150px;
 	}	
-	
 .section {
 	display: grid;
 	grid-template-columns: 400px 400px 400px;
 	grid-template-rows:  auto;
-	}
+	}	
 
+.main-area {
+	display: grid;
+	grid-template-columns: 400px 400px 400px;
+	grid-template-rows:  auto;
+	grid-column-gap: 20px;
+	}	
+	
+
+
+	
 .editing {
-	display: inline-block;
 	grid-column: 1 / 2;
-	grid-row: 1 / 2;
+	grid-row: 2 / 3;
 		width: 380px;
 		height: 150px;
 		border: 4px solid #2e3192;
@@ -94,9 +92,8 @@ grid-row: 1 / 2;
 		}	
 
 .stopmotion {
-	display: inline-block;
 	grid-column: 2 / 3;
-	grid-row: 1 / 2;
+	grid-row: 2 / 3;
 		width: 380px;
 		height: 150px;
 		border: 4px solid #2e3192;
@@ -107,9 +104,8 @@ grid-row: 1 / 2;
 
 
 .voicecreation {
-	display: inline-block;
 	grid-column: 1 / 2;
-	grid-row: 2 / 3;
+	grid-row: 3 / 4;
 		width: 380px;
 		height: 150px;
 		border: 4px solid #2e3192;
@@ -120,9 +116,8 @@ grid-row: 1 / 2;
 
 
 .voiceover {
-	display: inline-block;
 	grid-column: 2 / 3;
-	grid-row: 2 / 3;
+	grid-row: 3 / 4;
 		width: 380px;
 		height: 150px;
 		border: 4px solid #2e3192;
@@ -133,18 +128,20 @@ grid-row: 1 / 2;
 	
 .box1 {
 	grid-column: 3 / 4;
-	width: 380px;
-	height: 400px;
+	grid-row: 1 / 4;
+	width: 320px;
+	height: 430px;
 	background-color: rgba(46, 49, 146, .3);
-	padding: 10px;
+	padding: 50px 0 0 50px ;
 	} 
 	
 	
 .microphone {
 		grid-column: 3 / 4;
+	grid-row: 1 / 4;
 		width: 150px;
 		height: 100px;
-		padding-left: 100px;
+		padding: 50px 0 0 100px;
 	}	
 	
 
