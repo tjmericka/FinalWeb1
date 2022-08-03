@@ -58,14 +58,13 @@ h2 {
 .masthead	{
 	border: 10px solid #2e3192;
 	width: 1200px;
-	height: 160px;
+	height: 200px;
 	}
 	
 .AMerickaVoicesLogo {
 grid-column: 2 / 4;
 grid-row: 1 / 2;
-	width: 800px;
-	height: 150px;
+	image-size: 800px 150px;
 	}	
 	
 .AMerickaVoicesMascot {
