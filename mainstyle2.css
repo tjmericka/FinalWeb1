@@ -68,82 +68,72 @@ grid-row: 1 / 2;
 	height: 150px;
 	}	
 	
+.AMerickaVoicesMascot {
+grid-column: 1 / 2;
+grid-row: 1 / 2;
+	Padding: 5px 0 0 100px;
+	width: 150px;
+	height: 150px;
+	}	
+	
 .section {
 	display: grid;
 	grid-template-columns: 400px 400px 400px;
 	grid-template-rows:  auto;
 	}
-	
-
 
 .editing {
-	display: inline-grid;
+	display: inline-block;
 	grid-column: 1 / 2;
-	grid-row: 4 / 5;
-		font-size: 24pt;
+	grid-row: 1 / 2;
 		width: 380px;
 		height: 150px;
 		border: 4px solid #2e3192;
 	margin: 4px;
 		padding: 10px;
+	font-size: 24pt;
 		}	
 
-
-		
 .stopmotion {
-	display: inline-grid;
-	grid-column: 1 / 2;
-	grid-row: 5 / 6;
-		font-size: 24pt;
+	display: inline-block;
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
 		width: 380px;
 		height: 150px;
 		border: 4px solid #2e3192;
 	margin: 4px;
-		padding: 10px;
+	padding: 10px;
+	font-size: 24pt;
 	}
 
 
 .voicecreation {
-	display: inline-grid;
-	grid-column: 2 / 3;
-	grid-row: 4 / 5;
-		font-size: 24pt;
+	display: inline-block;
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
 		width: 380px;
 		height: 150px;
 		border: 4px solid #2e3192;
 	margin: 4px;
 		padding: 10px;
+	font-size: 24pt;
 	}	
 
 
 .voiceover {
-	display: inline-grid;
+	display: inline-block;
 	grid-column: 2 / 3;
-	grid-row: 5 / 6;
-		font-size: 24pt;
+	grid-row: 2 / 3;
 		width: 380px;
 		height: 150px;
 		border: 4px solid #2e3192;
 	margin: 4px;
 		padding: 10px;
+	font-size: 24pt;
 	}	
-	
-	
-	
-	.microphone {
-		display: inline-grid;
-		grid-column: 3 / 4;
-	grid-row: 3 / 4;
-		width: 150px;
-		height: 150px;
-		padding-left: 100px;
-	}	
-
 	
 .box1 {
-	display: grid;
 	grid-column: 3 / 4;
-	grid-row: 1 / 2;
 	width: 380px;
 	height: 400px;
 	background-color: rgba(46, 49, 146, .3);
@@ -151,15 +141,15 @@ grid-row: 1 / 2;
 	} 
 	
 	
-
-.AMerickaVoicesMascot {
-grid-column: 1 / 2;
-grid-row: 1 / 2;
-	Padding: 5px 0 0 100px;
-	width: 150px;
-	height: 200px;
+.microphone {
+		grid-column: 3 / 4;
+		width: 150px;
+		height: 100px;
+		padding-left: 100px;
 	}	
 	
+
+		
 .hireactor {
 grid-column: 3 / 4;
 grid-row: 2 / 3;
@@ -415,5 +405,8 @@ grid-column: 1 / 3;
 		padding: 20px;
 	}
 
-
+@media all and (min-width: 480ox) and (max-width: 1200px)
+{
+	body {color: green;}
+}
 
